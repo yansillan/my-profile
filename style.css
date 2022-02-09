@@ -1,0 +1,99 @@
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	line-height: 1.6;
+	text-align: center;
+}
+div{
+	position: top, right, bottom, left;
+}
+h1,h2,h3,h4{
+	font-size: 20px;
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.luxury-box{
+	position: relative;
+	right: 400px;
+}
+.fashion-box{
+	position: relative;
+	left: 400px;
+}
+.architecture-box{
+	position: relative;
+	right: 400px;
+}
+.gaming-box{
+	position: relative;
+	left: 400px;
+}
+.fa-spotify{
+	position: relative;
+	right: 25px;
+}
+.fa-twitch{
+	position: relative;
+	left: 25px;
+	bottom: 35px;
+}
+.fa-facebook-square{
+	position: relative;
+	right: 70px;
+}
+
+.fa-instagram{
+	position: relative;
+	bottom: 50px;
+}
+
+.fa-linkedin{
+	position: relative;
+	left: 70px;
+	bottom: 100px;
+}
+
+.fa-brands{
+	align-content: space-around;
+}
+
+#photo{
+	border-radius: 700px;
+	image-rendering: optimizeQuality;
+}
+.img-square{
+	border-radius: 25px;
+}
+.social_box{
+	justify-content: safe center;
+	margin-left: 20px;
+}
+#list {
+	list-style: none;
+	list-style-position: inside;
+	line-height: 23px;
+	margin: 0;
+	padding: 0;
+	display: inline;
+
+
+
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
