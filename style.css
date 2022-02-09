@@ -2,7 +2,7 @@ html, body{
 	background-color: rgb(230, 230, 230);
 	color: rgb(30, 30, 30);
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 1.6;
 	text-align: center;
 	margin: 0;
@@ -61,6 +61,7 @@ h5{
 	right: 25px;
 	width: 5px;
 	color: rgb(30, 215, 96);
+	text-decoration: none;
 	
 }
 .fa-twitch{
@@ -68,12 +69,14 @@ h5{
 	left: 25px;
 	bottom: 35px;
 	width: 5px;
+	text-decoration: none;
 }
 .fa-facebook-square{
 	position: relative;
 	right: 100px;
 	width: 5px;
 	color: rgb(66, 103, 178);
+	text-decoration: none;
 	
 }
 
@@ -83,6 +86,7 @@ h5{
 	right: 20px;
 	width: 5px;
 	color: rgb(193, 53, 132);
+	text-decoration: none;
 	
 }
 
@@ -92,13 +96,14 @@ h5{
 	bottom: 100px;
 	width: 5px;
 	color: rgb(40, 103, 178);
+	text-decoration: none;
 
   
 }
 
 .fa-brands{
 	align-content: space-around;
-	text-decoration:none;
+	text-decoration: none;
 	color: inherit;
 	
   
