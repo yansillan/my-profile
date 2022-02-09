@@ -1,18 +1,27 @@
-body{
+html, body{
 	background-color: rgb(230, 230, 230);
 	color: rgb(30, 30, 30);
 	font-family: 'Playfair Display', serif;
 	font-size: 17px;
 	line-height: 1.6;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+
 }
-div{
-	position: top, right, bottom, left;
-}
+
 h1,h2,h3,h4{
 	font-size: 20px;
 	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 	font-family: 'Playfair Display', serif;
+
+}
+.container{
+
+	height: auto;
+	width: auto;
 
 }
 
