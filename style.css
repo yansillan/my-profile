@@ -57,6 +57,117 @@ h5{
 	top: 50px
 }
 .fa-spotify{
+	position: center;
+	color: rgb(30, 215, 96);
+	text-decoration: none;
+}
+.fa-twitch{
+	position: center;
+	text-decoration: none;
+}
+.fa-facebook-square{
+	position: center;
+	color: rgb(66, 103, 178);
+	text-decoration: none;
+	
+}
+
+.fa-instagram{
+	position: center;
+	color: rgb(193, 53, 132);
+	text-decoration: none;
+	
+}
+
+.fa-linkedin{
+	position: center;
+	color: rgb(40, 103, 178);
+	text-decoration: none;
+
+  
+}
+
+.icons{
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+	align-items: ;
+	justify-content: unsafe center;
+  
+}
+
+#photo{
+	border-radius: 700px;
+	image-rendering: optimizeQuality;
+}
+.img-square{
+	border-radius: 25px;
+}
+
+#list {
+	list-style: none;
+	line-height: 23px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.left-subtitles{
+	position: relative;
+	left: 68%;
+	bottom: 300px;
+}
+
+.right-subtitles{
+	position: relative;
+	left: 13%;
+	bottom: 300px;
+}
+
+}
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+ 
+  .container {
+    width: 300px;
+  }
+}
+
+.luxury-box{
+	position: relative;
+	right: 350px;
+	
+}
+.fashion-box{
+	position: relative;
+	left: 350px;
+	height="393.75"
+	
+}
+.architecture-box{
+	position: relative;
+	right: 350px;
+	height="393.75"
+
+
+}
+.gaming-box{
+	position: relative;
+	left: 350px;
+	top: 50px
+}
+.fa-spotify{
 	position: relative;
 	right: 75px;
 	width: 5px;
