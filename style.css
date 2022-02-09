@@ -96,6 +96,7 @@ h5{
 .fa-brands{
 	align-content: space-around;
 	text-decoration:none;
+	color: inherit;
 	
   
 }
