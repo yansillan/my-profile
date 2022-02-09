@@ -1,73 +1,104 @@
 html, body{
 	background-color: rgb(230, 230, 230);
 	color: rgb(30, 30, 30);
-	font-family: 'Playfair Display', serif;
-	font-size: 17px;
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+	font-size: 16px;
 	line-height: 1.6;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding: 40px;
 	overflow-x: hidden;
 
 
 }
 
 h1,h2,h3,h4{
-	font-size: 20px;
-	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+	
+	font-size: 36px;
 	font-family: 'Playfair Display', serif;
-
+	width: 250px;
+	border-color: gold;
+	
 }
+
+h5{
+
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+}
+
 .container{
 
 	height: auto;
 	width: auto;
-
+	
 }
 
 .luxury-box{
 	position: relative;
-	right: 400px;
+	right: 350px;
+	
 }
 .fashion-box{
 	position: relative;
-	left: 400px;
+	left: 350px;
+	
 }
 .architecture-box{
 	position: relative;
-	right: 400px;
+	right: 350px;
+
+
 }
 .gaming-box{
 	position: relative;
-	left: 400px;
+	left: 350px;
 }
 .fa-spotify{
 	position: relative;
 	right: 25px;
+	width: 5px;
+	color: rgb(30, 215, 96);
+	
 }
 .fa-twitch{
 	position: relative;
 	left: 25px;
 	bottom: 35px;
+	width: 5px;
 }
 .fa-facebook-square{
 	position: relative;
-	right: 70px;
+	right: 100px;
+	width: 5px;
+	color: rgb(66, 103, 178);
+	
 }
 
 .fa-instagram{
 	position: relative;
 	bottom: 50px;
+	right: 20px;
+	width: 5px;
+	color: rgb(193, 53, 132);
+	
 }
 
 .fa-linkedin{
 	position: relative;
-	left: 70px;
+	left:70px;
 	bottom: 100px;
+	width: 5px;
+	color: rgb(40, 103, 178);
+
+  
 }
 
 .fa-brands{
 	align-content: space-around;
+	text-decoration:none;
+	
+  
 }
 
 #photo{
@@ -77,34 +108,43 @@ h1,h2,h3,h4{
 .img-square{
 	border-radius: 25px;
 }
-.social_box{
-	justify-content: safe center;
-	margin-left: 20px;
-}
+
 #list {
 	list-style: none;
 	list-style-position: inside;
 	line-height: 23px;
 	margin: 0;
 	padding: 0;
-	display: inline;
 
 }
 
+.left-subtitles{
+	position: relative;
+	left: 68%;
+	bottom: 300px;
+}
+
+.right-subtitles{
+	position: relative;
+	left: 13%;
+	bottom: 300px;
+}
+
+}
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+  
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
+  
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
+ 
   .container {
     width: 300px;
   }
