@@ -73,7 +73,7 @@ h5{
 }
 .fa-facebook-square{
 	position: relative;
-	right: 100px;
+	right: 125px;
 	width: 5px;
 	color: rgb(66, 103, 178);
 	text-decoration: none;
@@ -82,7 +82,7 @@ h5{
 
 .fa-instagram{
 	position: relative;
-	bottom: 50px;
+	bottom: 75px;
 	right: 20px;
 	width: 5px;
 	color: rgb(193, 53, 132);
@@ -92,8 +92,8 @@ h5{
 
 .fa-linkedin{
 	position: relative;
-	left:70px;
-	bottom: 100px;
+	left: 100px;
+	bottom: 125px;
 	width: 5px;
 	color: rgb(40, 103, 178);
 	text-decoration: none;
