@@ -80,10 +80,7 @@ h1,h2,h3,h4{
 	padding: 0;
 	display: inline;
 
-
-
 }
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -95,5 +92,11 @@ h1,h2,h3,h4{
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
   }
 }
