@@ -150,21 +150,28 @@ width: 800.3px;
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   
   .container {
-    width: 700px;
+    width: 1025px;
   }
 }
-@media (max-width: 720px) {
+
+@media (max-width: 1024px) {
   
   .container {
-    width: 500px;
+    width: 769px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 768px) {
+  
+  .container {
+    width: 481px;
+  }
+}
+@media (max-width: 480px) {
  
   .container {
-    width: 300px;
+    width: 320px;
   }
 }
