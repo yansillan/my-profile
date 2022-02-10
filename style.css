@@ -6,8 +6,9 @@ html, body{
 	line-height: 1.6;
 	text-align: center;
 	margin: 0;
-	padding: 10px;
+	padding: 15px;
 	overflow-x: hidden;
+	min-height: 100%;
 
 
 }
@@ -24,40 +25,22 @@ h5{
 
 	font-family: 'Playfair Display', serif;
 	font-size: 24px;
+	display: flex;
+	justify-content: center;
+
 }
 
 .container{
-
-	height: auto;
 	width: auto;
-	
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: safe center;
+	flex-direction: column;
 }
 
-.luxury-box{
-	position: relative;
-	right: 350px;
-	
-}
-.fashion-box{
-	position: relative;
-	left: 350px;
-	height="393.75"
-	
-}
-.architecture-box{
-	position: relative;
-	right: 350px;
-	height="393.75"
 
-
-}
-.gaming-box{
-	position: relative;
-	left: 350px;
-	top: 50px
-}
 .fa-spotify{
-	position: center;
 	color: rgb(30, 215, 96);
 	text-decoration: none;
 }
@@ -88,11 +71,14 @@ h5{
 }
 
 .icons{
-	text-decoration: none;
 	color: inherit;
 	display: flex;
-	align-items: ;
-	justify-content: unsafe center;
+	align-items: center;
+	justify-content: space-between;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+
   
 }
 
@@ -104,152 +90,66 @@ h5{
 	border-radius: 25px;
 }
 
-#list {
+.illustrations{
+	width: 1600.6px;
+	height: 1575px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	margin: 100px;
+}
+
+.illustrations-left{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 800.3px;
+
+}
+
+.illustrations-text-left{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 393.75px;
+width: 800.3px;
+
+}
+
+
+.illustrations-right{
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 800.3px;
+
+}
+
+.illustrations-text-right{
+text-decoration: none;
+display: flex;
+flex-direction: flex-end;
+align-items: center;
+justify-content: center;
+height: 393.75px;
+width: 800.3px;
+
+}
+
+.list {
 	list-style: none;
-	line-height: 23px;
-	margin: 0;
-	padding: 0;
-
-}
-
-.left-subtitles{
-	position: relative;
-	left: 68%;
-	bottom: 300px;
-}
-
-.right-subtitles{
-	position: relative;
-	left: 13%;
-	bottom: 300px;
-}
-
-}
-@media (max-width: 960px) {
-  
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
- 
-  .container {
-    width: 300px;
-  }
-}
-
-.luxury-box{
-	position: relative;
-	right: 350px;
-	
-}
-.fashion-box{
-	position: relative;
-	left: 350px;
-	height="393.75"
-	
-}
-.architecture-box{
-	position: relative;
-	right: 350px;
-	height="393.75"
-
-
-}
-.gaming-box{
-	position: relative;
-	left: 350px;
-	top: 50px
-}
-.fa-spotify{
-	position: relative;
-	right: 75px;
-	width: 5px;
-	color: rgb(30, 215, 96);
-	text-decoration: none;
-	
-}
-.fa-twitch{
-	position: relative;
-	left: 25px;
-	bottom: 35px;
-	width: 5px;
-	text-decoration: none;
-}
-.fa-facebook-square{
-	position: relative;
-	right: 150px;
-	width: 5px;
-	color: rgb(66, 103, 178);
-	text-decoration: none;
-	
-}
-
-.fa-instagram{
-	position: relative;
-	bottom: 100px;
-	right: 20px;
-	width: 5px;
-	color: rgb(193, 53, 132);
-	text-decoration: none;
-	
-}
-
-.fa-linkedin{
-	position: relative;
-	left: 100px;
-	bottom: 175px;
-	width: 5px;
-	color: rgb(40, 103, 178);
 	text-decoration: none;
 
-  
-}
-
-.fa-brands{
-	align-content: space-around;
-	text-decoration: none;
-	color: inherit;
-	
-  
-}
-
-#photo{
-	border-radius: 700px;
-	image-rendering: optimizeQuality;
-}
-.img-square{
-	border-radius: 25px;
-}
-
-#list {
-	list-style: none;
-	list-style-position: inside;
-	line-height: 23px;
-	margin: 0;
-	padding: 0;
 
 }
 
-.left-subtitles{
-	position: relative;
-	left: 68%;
-	bottom: 300px;
-}
-
-.right-subtitles{
-	position: relative;
-	left: 13%;
-	bottom: 300px;
-}
-
-}
 @media (max-width: 960px) {
   
   .container {
